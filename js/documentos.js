@@ -1,4 +1,4 @@
-fetch('https://earnest-torte-8a0636.netlify.app/documentos', {
+fetch('https://earnest-torte-8a0636.netlify.app/documentos/documentos.json', {
 method: 'GET'
     }).then(response => response.json())
     .then( function(response) {
