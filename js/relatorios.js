@@ -83,7 +83,7 @@ function baixarRelatorio(){
 
 
 function relatorioPc(){
-    fetch("https://troqueseuvale.com.br/relatorios/", {
+    fetch("https://earnest-torte-8a0636.netlify.app/relatorios/relatorios.json", {
         method:"GET"
     })
     .then(response => response.json())
