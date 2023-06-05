@@ -40,7 +40,7 @@ var chart = AmCharts.makeChart("chartdiv",
 
 
         "dataLoader":{
-            "url": "https://earnest-torte-8a0636.netlify.app/perf",
+            "url": "https://earnest-torte-8a0636.netlify.app/perf.csv",
             "format": "csv",
             "reverse": 1,
             "async": 1,
