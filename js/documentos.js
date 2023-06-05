@@ -1,0 +1,37 @@
+fetch('https://troqueseuvale.com.br/documentos/', {
+method: 'GET'
+    }).then(response => response.json())
+    .then( function(response) {
+        
+        let documents = ''
+        for (let i in response['documentos']){
+            div = `<div class = 'documentos-2'> <img src='imagens/logo-pdf.png'> <a href = "https://troqueseuvale.com.br/documentos/?documento=${response['documentos'][i]}"> ${response['documentos'][i]} </a> </div>\n`
+            documents += div
+        }
+        documents = `<div class = 'documents'> ${documents} </div>`  
+        document.querySelector('.documentos').innerHTML = documents
+            
+
+    }
+    )
+    .catch(error => console.log(error))
+
+
+
+
+
+// function baixar(documento){
+//     fetch(`https://troqueseuvale.com.br/documentos/?documento=${documento}`, {
+//         method: 'GET',
+//     }).then(response => response.blob())
+//     .then(response => {
+      
+//         const url = URL.createObjectURL(response)
+//         let a = document.createElement('a')
+//         a.href = url
+//         a.download= `${documento}.pdf`
+//         a.click()
+//     })
+//     .catch(error => console.log(error))
+
+// }

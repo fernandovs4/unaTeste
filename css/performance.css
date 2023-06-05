@@ -1,0 +1,160 @@
+#chartdiv{
+    max-width: 1000px;
+    height: 500px;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  
+  #fromDate, #toDate{
+    width: 120px;
+    padding: 0.5em;
+  }
+  #dates{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+  }
+  .button-dates{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 2em;
+    background-color: #01648B;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  #buttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+  #buttons input{
+    margin-left: 5px;
+  }
+  
+@media only screen and (max-width: 1000px) {
+
+   #chartdiv{
+    width: 800px;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+    
+  #fromDate, #toDate{
+    width: 120px;
+    padding: 0.5em;
+  }
+  #dates{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+  }
+  .button-dates{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 2em;
+    background-color: #01648B;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  #buttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+  }
+  #buttons input{
+    margin-left: 5px;
+  }
+  }
+
+@media only screen and (max-width: 800px) {
+
+    #chartdiv{
+     width: 99%;
+     margin: auto;
+     margin-top: 1em;
+     margin-bottom: 1em;
+   }
+     
+  #fromDate, #toDate{
+    width: 110px;
+    padding: 0.5em;
+  }
+  #dates{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5em;
+  }
+  .button-dates{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 2em;
+    background-color: #01648B;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  #buttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+  #buttons input{
+    margin-left: 5px;
+  }
+
+   }
+
+@media only screen and (max-width:500px) {
+    #dates input{
+        font-size: small;
+    }
+    
+    #chartdiv{
+        width: 99%;
+        margin: auto;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+      }
+        
+     #fromDate, #toDate{
+       width: 100px;
+       padding: 0.2em;
+     }
+     #dates{
+       display: flex;
+       justify-content: center;
+       margin-bottom: 0.2em;
+     }
+     .button-dates{
+       margin-top: 18px;
+       margin-left: 20px;
+       height: 2em;
+       background-color: #01648B;
+       color: #ffffff;
+       border: none;
+       border-radius: 2px;
+       cursor: pointer;
+     }
+     #buttons{
+       display: flex;
+       justify-content: center;
+       margin-bottom: 2em;
+     }
+     #buttons input{
+       margin-left: 5px;
+     }
+}
+
+h1{
+  display: flex;
+    text-align: center;
+    justify-content: center;  
+}

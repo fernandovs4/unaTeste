@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Una Capital</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/documento.css">
+    <script src="js/documentos.js" ></script>
+</head>
+<body>
+    <header >
+        <nav  >
+            <div class="container" >
+                <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo" > <img src="imagens/una_capital-removebg-preview(1).png" alt="logo Una Capital"> </a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger  "><i class="material-icons ">menu</i></a>
+                    <ul class="  right hide-on-med-and-down">
+                        <li><a href="home">Home</a></li>
+                        <li><a href="documentos">Documentos</a></li>
+                        <li><a href="fundo">Fundo</a></li>
+                        <li><a href="performace">Performance</a></li>
+                        <li><a href="relatorios">Relatórios</a></li>
+                        <li><a href="contato">Contato</a></li>
+        
+                    </ul>
+                    </div>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="home" >Home</a></li>
+            <li><a href="documentos">Documentos</a></li>
+            <li><a href="fundo.html">Fundo</a></li>
+            <li><a href="performace">Performance</a></li>
+            <li><a href="relatorios">Relatórios</a></li>
+            <li><a href="contato">Contato</a></li>
+        </ul>
+    </header>
+        <main>
+            <div class="container" >
+                <div class="conteudo_documento" >
+                    <h1> Documentos </h1>
+                <h2>ICVM 558/15</h2>
+    
+                <p>
+                    Conforme estabelecido pela Instrução CVM 558 de Março de 2015, disponibilizamos os seguintes documentos:
+                </p>
+
+                <div class="documentos" ></div>
+                </div>
+            </div>
+        </main>
+ 
+    <footer class="page-footer  darken-4 ">
+          <div class="row">
+            <div class="col l24 s12 m12  ">
+              <h5 class="white-text l20 ">UNA Capital não comercializa nem distribui cotas de fundos de investimentos ou qualquer outro 
+                ativo financeiro. As informações contidas nesse material são de caráter exclusivamente informativo. Fundos de investimentos
+                 não contam com a garantia do administrador, do gestor de carteira, de qualquer mecanismo de seguro ou, ainda, do fundo 
+                 garantidor de créditos – FGC. A rentabilidade passada não representa garantia de rentabilidade futura. Ao investidor é 
+                 recomendada a leitura cuidadosa do estatuto dos fundos de investimento ao aplicar seus recursos. A rentabilidade apresentada 
+                 não é líquida de impostos.
+                De maneira a refletir a rentabilidade real obtida pelo cotista, a performance apresentada até 11/02/2016 é ajustada por característica 
+                específica do fundo, no qual os cotistas recebiam os dividendos distribuídos pelas empresas e os mesmos eram automaticamente utilizados 
+                para compra de novas cotas
+                
+                LEIA O REGULAMENTO ANTES DE INVESTIR. ESTE FUNDO É SUPERVISIONADO E FISCALIZADO PELA COMISSÃO DE VALORES MOBILIARIOS - CVM (SERVIÇO DE ATENDIMENTO
+                 AO CIDADÃO EM WWW.CVM.GOV.BR). Público alvo: Pessoa física. Tipo ANBIMA: Ações Livre. A RENTABILIDADE DIVULGADA NÃO É LÍQUIDA DE IMPOSTOS. 
+                 FUNDOS DE INVESTIMENTO NÃO CONTAM COM A GARANTIA DO ADMINISTRADOR, DO GESTOR, DE QUALQUER MECANISMO DE SEGURO OU FUNDO GARANTIDOR DE CRÉDITO
+                  - FGC. DESCRIÇÃO DO TIPO ANBIMA DISPONÍVEL NO FORMULÁRIO DE INFORMAÇÕES COMPLEMENTARES. LEIA O [PROSPECTO, O FORMULÁRIO DE INFORMAÇÕES 
+                  COMPLEMENTARES, LÂMINA DE INFORMAÇÕES ESSENCIAIS E O REGULAMENTO] ANTES DE INVESTIR.AS ESTRATÉGIAS DE INVESTIMENTO DO FUNDO PODEM RESULTAR 
+                  EM SIGNIFICATIVAS PERDAS PATRIMONIAIS OU EM PERDAS SUPERIORES AO CAPITAL APLICADO E A CONSEQUENTE OBRIGAÇÃO DO COTISTA DE APORTAR RECURSOS 
+                  ADICIONAIS PARA COBRIR O PREJUÍZO DO FUNDO.ESTE FUNDO ESTÁ AUTORIZADO A REALIZAR APLICAÇÕES EM ATIVOS FINANCEIROS NO EXTERIOR. MATERIAL DE 
+                  DIVULGAÇÃO.</h5>
+            </div>
+        </div>
+        <div class="footer-copyright">
+        
+            <div class = "footer">
+                <p>UNA CAPITAL | +5511 3504 6000 | Rua Bandeira Paulista 275, 5º andar, cj. 52 04532-010, Itaim Bibi, São Paulo, SP, Brasil          
+                </p>
+                <p> © 2023 UNA CAPITAL</p>
+          </div>
+        </div>
+      </footer>
+          
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+      <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    var elems = document.querySelectorAll('.sidenav');
+                    var instances = M.Sidenav.init(elems, options);
+                });
+                // Or with jQuery
+                $(document).ready(function(){
+                    $('.sidenav').sidenav();
+                });
+    </script>
+</body>
+</html>

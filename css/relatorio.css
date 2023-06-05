@@ -1,0 +1,12 @@
+.relatorioCelular{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .relatorioCelular{
+        display: block;
+    }
+    .table_relatorios{
+        display: none;
+    }
+}
