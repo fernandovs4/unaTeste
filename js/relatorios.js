@@ -106,20 +106,17 @@ relatorioPc()
 
 function baixarPC(relatorio){
     console.log(relatorio)
-    fetch(`https://earnest-torte-8a0636.netlify.app/relatorios/${relatorio}`, {
+    fetch(`https://earnest-torte-8a0636.netlify.app/relatorios/${relatorio}.pdf`, {
         method:'GET', 
     })
     .then(response => response.blob())
   .then(blob => {
     const url = URL.createObjectURL(blob)
-
     let a = document.createElement('a')
     a.href = url
     a.download = `${relatorio}`
     a.click()
-  });
-
-   
+  });   
 }
 
 function escureceLinhaColuna(relatorio, ultimo_ano){
