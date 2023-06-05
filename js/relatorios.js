@@ -91,7 +91,8 @@ function relatorioPc(){
             for(mes in relatorios_do_mes){
                 
         
-                body += `<td class = "m${relatorios_do_mes[mes]}"   > <abbr title= "Mainá ${relatorios_do_mes[mes]}"> <img onmouseover = 'escureceLinhaColuna("${relatorios_do_mes[mes]}", ${ultimo_ano})' onmouseout = 'clareiaLinhaColuna("${relatorios_do_mes[mes]}",  ${ultimo_ano})'  onclick = 'baixarPC("${relatorios_do_mes[mes]}")' src= 'imagens/logo-pdf.png'  > </abbr></td>`
+                //body += `<td class = "m${relatorios_do_mes[mes]}"   > <abbr title= "Mainá ${relatorios_do_mes[mes]}"> <img onmouseover = 'escureceLinhaColuna("${relatorios_do_mes[mes]}", ${ultimo_ano})' onmouseout = 'clareiaLinhaColuna("${relatorios_do_mes[mes]}",  ${ultimo_ano})'  onclick = 'baixarPC("${relatorios_do_mes[mes]}")' src= 'imagens/logo-pdf.png'  > </abbr></td>`
+                body += `<td class = "m${relatorios_do_mes[mes]}"   > <abbr title= "Mainá ${relatorios_do_mes[mes]}"> <img onmouseover = 'escureceLinhaColuna("${relatorios_do_mes[mes]}", ${ultimo_ano})' onmouseout = 'clareiaLinhaColuna("${relatorios_do_mes[mes]}",  ${ultimo_ano})'  onclick = 'https://earnest-torte-8a0636.netlify.app/relatorios/${relatorios_do_mes[mes]}.pdf' src= 'imagens/logo-pdf.png'  > </abbr></td>`
             }
             body += '</tr>'
         })
