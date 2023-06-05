@@ -1,4 +1,4 @@
-fetch('file:///home/fernando/SIte%20Una%20Capital%20(c%C3%B3pia)/cota.json').
+fetch('https://earnest-torte-8a0636.netlify.app/cota.json').
     then(response => response.json()).
     then(function (response) {
     let resposta = response
