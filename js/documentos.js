@@ -1,17 +1,14 @@
-fetch('https://troqueseuvale.com.br/documentos/', {
+fetch('https://earnest-torte-8a0636.netlify.app/documentos', {
 method: 'GET'
     }).then(response => response.json())
     .then( function(response) {
-        
         let documents = ''
         for (let i in response['documentos']){
-            div = `<div class = 'documentos-2'> <img src='imagens/logo-pdf.png'> <a href = "https://troqueseuvale.com.br/documentos/?documento=${response['documentos'][i]}"> ${response['documentos'][i]} </a> </div>\n`
+            div = `<div class = 'documentos-2'> <img src='imagens/logo-pdf.png'> <a href = "https://earnest-torte-8a0636.netlify.app/documentos/${response['documentos'][i]}.pdf"> ${response['documentos'][i]} </a> </div>\n`
             documents += div
         }
         documents = `<div class = 'documents'> ${documents} </div>`  
         document.querySelector('.documentos').innerHTML = documents
-            
-
     }
     )
     .catch(error => console.log(error))
