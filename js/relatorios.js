@@ -1,36 +1,26 @@
 
 
 function baixar(pdf){
-  
     fetch(`https://earnest-torte-8a0636.netlify.app/relatorios/${pdf}`, {
         method:'GET', 
-        
     })
     .then(response => response.blob())
   .then(blob => {
     const url = URL.createObjectURL(blob)
-
     let a = document.createElement('a')
     a.href = url
     a.download = `${pdf}`
     a.click()
   });
-
-   
 }
-
 
 function RelatorioCelularAno(relatorio, ultimo_ano){
     let pdf = document.getElementById('anos')
     let selec = ''
     for (let i = 2013; i <= ultimo_ano;i++){
         selec += `<option value = ${i} > ${i}</option> \n`
-
-
     }
     pdf.innerHTML = selec
-    
-    
 }
 
 function RelatorioCelularMes(){
@@ -116,9 +106,8 @@ relatorioPc()
 
 function baixarPC(relatorio){
     console.log(relatorio)
-    fetch(`https://troqueseuvale.com.br/relatorios/?relatorio=${relatorio}`, {
+    fetch(`https://earnest-torte-8a0636.netlify.app/relatorios/${relatorio}`, {
         method:'GET', 
-        
     })
     .then(response => response.blob())
   .then(blob => {
