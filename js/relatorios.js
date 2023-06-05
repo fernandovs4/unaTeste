@@ -1,7 +1,7 @@
 
 
 function baixar(pdf){
-    fetch(`https://earnest-torte-8a0636.netlify.app/relatorios/${pdf}`, {
+    fetch(`https://earnest-torte-8a0636.netlify.app/relatorios/${pdf}.pdf`, {
         method:'GET', 
     })
     .then(response => response.blob())
