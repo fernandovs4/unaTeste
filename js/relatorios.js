@@ -2,7 +2,7 @@
 
 function baixar(pdf){
   
-    fetch(`https://troqueseuvale.com.br/relatorios/?relatorio=${pdf}`, {
+    fetch(`https://earnest-torte-8a0636.netlify.app/relatorios/${pdf}`, {
         method:'GET', 
         
     })
