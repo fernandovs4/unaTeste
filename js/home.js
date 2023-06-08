@@ -2,7 +2,7 @@ fetch('https://earnest-torte-8a0636.netlify.app/cota.json').
     then(response => response.json()).
     then(function (response) {
     let resposta = response
-    resposta = resposta['content'];
+    resposta = resposta['dados'];
     let dados = []
     for(let i = 0; i < resposta['Cota'].length; i++){
         dados.push([resposta['Cota'][i], resposta['Mes'][i], resposta['Ano'][i], resposta['12 Meses'][i], resposta['24 Meses'][i], resposta['36 Meses'][i], resposta['60 Meses'][i]])
