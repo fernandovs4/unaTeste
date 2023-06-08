@@ -621,11 +621,18 @@ table .thead_relatorios  td{
 
 .table_relatorios{
   max-width: 800px;
-  
   margin: auto;
 }
 .table_relatorios caption{
   text-align: left;
+}
+
+.tabela1 > tbody > tr > td{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 20px;
+
 }
 
 
