@@ -2,7 +2,7 @@ fetch('cota.json').
     then(response => response.json()).
     then(function (response) {
     let resposta = response
-    resposta = resposta['dados'];
+    resposta = resposta['content'];
     let dados = []
     for(let i = 0; i < resposta['Cota'].length; i++){
         dados.push([resposta['Cota'][i], resposta['Mes'][i], resposta['Ano'][i], resposta['12 Meses'][i], resposta['24 Meses'][i], resposta['36 Meses'][i], resposta['60 Meses'][i]])
@@ -17,8 +17,8 @@ fetch('cota.json').
             let div4 = document.getElementById(`${i + 31}`);
             div4.innerHTML = dados[3][i];
         }
-    let data = resposta['data']
-    let patrimonio = resposta['patrimonio']
+    let data = resposta['date']
+    let patrimonio = resposta['pl_medio']
     document.getElementsByClassName('table_footer')[0].innerHTML = `<p class ='patrimonio' >Patrimônio Líquido:R$ ${patrimonio}<br>
                                                                             (Média de 12 meses | 252 du)<br>
                                                                             Cota  de ${data}<br></p> `;
