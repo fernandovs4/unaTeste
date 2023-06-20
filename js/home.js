@@ -17,9 +17,10 @@ fetch('https://earnest-torte-8a0636.netlify.app/cota.json').
             let div4 = document.getElementById(`${i + 31}`);
             div4.innerHTML = dados[3][i];
         }
-    let data = resposta['data']
+    console.log(resposta)
+    let data = response['data']
     console.log(data)
-    let patrimonio = resposta['patrimonio']
+    let patrimonio = response['patrimonio']
     document.getElementsByClassName('table_footer')[0].innerHTML = `<p class ='patrimonio' >Patrimônio Líquido:R$ ${patrimonio}<br>
                                                                             (Média de 12 meses | 252 du)<br>
                                                                             Cota  de ${data}<br></p> `;
