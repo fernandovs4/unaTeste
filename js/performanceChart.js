@@ -104,8 +104,8 @@ var chart = AmCharts.makeChart("chartdiv",
         "legend": {
             "enabled": 1,
             "useGraphSettings": 1,
-            "valueWidth": 60,
-            "equalWidths": 0
+            "valueWidth": 70,
+            "equalWidths": 1
         },
         "listeners":[{
             "event": "zoomed",
