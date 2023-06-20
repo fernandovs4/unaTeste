@@ -52,7 +52,7 @@ var chart = AmCharts.makeChart("chartdiv",
         "graphs": [
             {
                 "id": "graphMAINA",
-                "lineThickness": 3,
+                "lineThickness": 4,
                 "title": "MAINA",
                 "valueField": "Maina",
                 "lineColor": "green",
@@ -104,7 +104,7 @@ var chart = AmCharts.makeChart("chartdiv",
         "legend": {
             "enabled": 1,
             "useGraphSettings": 1,
-            "valueWidth": 30,
+            "valueWidth": 60,
             "equalWidths": 0
         },
         "listeners":[{
