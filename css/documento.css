@@ -14,7 +14,7 @@
    
 }
 .documentos-2{
-    width: 90%;
+    width: 100%;
     word-wrap: break-word;
     white-space: normal;
 }
@@ -27,6 +27,10 @@ h5 {
   
   }
 
+  .conteudo_documento{
+    width: 800px;
+    margin-top: 20px ;
+  }
 .container{
     max-width: 800px;
     min-width: 800px;

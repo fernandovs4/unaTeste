@@ -171,10 +171,7 @@ font-size: 0.5em;
 font-family: Arial, Helvetica, sans-serif
 
 }
-.conteudo_documento{
-margin-left:15% ;
 
-}
 .conteudo_contato{
 
 margin-left: 5%;
@@ -505,11 +502,7 @@ font-family: Arial, Helvetica, sans-serif
 
 }
 
-.conteudo_documento{
-margin-left: 5%;
-margin-top: 2em;
-margin-bottom: 2em;
-}
+
 .sidenav{
 background-color: #f7fbfd;
 }
