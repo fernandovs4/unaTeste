@@ -34,10 +34,12 @@
     margin-left: 5px;
   }
   
-@media only screen and (max-width: 1000px) {
-  nav > .container {
+@media only screen and (max-width: 1050px) {
+  .container {
+    margin: 0 auto;
     max-width: 800px;
-    min-width: 800px;
+    width: 85%;
+    
   }
 
    #chartdiv{
@@ -78,9 +80,10 @@
   }
 
 @media only screen and (max-width: 800px) {
-  nav > .container {
-    max-width: 99%;
-    min-width: 99%;
+  .container {
+    margin: 0 auto;
+    max-width: 800px;
+    width: 85%;
   }
 
     #chartdiv{
