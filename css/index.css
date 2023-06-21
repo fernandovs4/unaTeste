@@ -1,0 +1,22 @@
+@media only screen and (min-width:1050px) {
+    .container{
+      max-width: 950px;
+      min-width: 950px;
+    }
+    
+  }
+
+  @media only screen and (min-width: 993px) {
+  .container {
+    margin: 0 auto;
+    max-width: 950px;
+    width: 85%;
+  }}    
+  @media only screen and (max-width: 1050px) {
+
+  .container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 85%;
+  }
+}

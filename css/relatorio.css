@@ -2,6 +2,19 @@
     display: none;
 }
 
+
+nav{
+    margin: auto;
+   
+}
+.container{
+    width: 800px;
+    margin: auto;
+}
+.conteudo_relatorio{
+    margin: 20px 0;
+    padding: 0;
+}
 @media screen and (max-width: 600px) {
     .relatorioCelular{
         display: block;

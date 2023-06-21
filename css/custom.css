@@ -21,13 +21,7 @@ h5 {
 
 }
 
-@media only screen and (min-width:1050px) {
-  .container{
-    max-width: 950px;
-    min-width: 950px;
-  }
-  
-}
+
 
 @media only screen and (min-width: 993px) {
       #toast-container {
@@ -35,11 +29,7 @@ h5 {
         right: 7%;
         max-width: 90%;
       } 
-      .container {
-        margin: 0 auto;
-        max-width: 950px;
-        width: 85%;
-      }
+   
       
     
       
@@ -110,12 +100,7 @@ text-align: center;
 
 
 @media only screen and (max-width: 1050px) {
-  .container {
-    margin: 0 auto;
-    max-width: 1280px;
-    width: 85%;
-  }
-  
+ 
  
 .tabela{
   max-width: 85%;
