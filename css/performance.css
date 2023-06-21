@@ -35,6 +35,10 @@
   }
   
 @media only screen and (max-width: 1000px) {
+  nav > .container {
+    max-width: 800px;
+    min-width: 800px;
+  }
 
    #chartdiv{
     width: 800px;
@@ -74,6 +78,10 @@
   }
 
 @media only screen and (max-width: 800px) {
+  nav > .container {
+    max-width: 99%;
+    min-width: 99%;
+  }
 
     #chartdiv{
      width: 99%;
@@ -115,6 +123,10 @@
 @media only screen and (max-width:500px) {
     #dates input{
         font-size: small;
+    }
+    nav > .container {
+      max-width: 99%;
+      min-width: 99%;
     }
     
     #chartdiv{
