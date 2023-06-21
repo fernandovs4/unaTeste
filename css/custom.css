@@ -21,17 +21,29 @@ h5 {
 
 }
 
-@media only screen and (min-width: 993px) {
-  .container {
-    width: 80%;
-  }}
+@media only screen and (min-width:1050px) {
+  .container{
+    max-width: 950px;
+    min-width: 950px;
+  }
+  
+}
 
 @media only screen and (min-width: 993px) {
       #toast-container {
         top: 10%;
         right: 7%;
         max-width: 90%;
+      } 
+      .container {
+        margin: 0 auto;
+        max-width: 950px;
+        width: 85%;
       }
+      
+    
+      
+     
      
     }
 
@@ -87,6 +99,8 @@ td{
 }
 
 
+
+
 .canva{
 width: 900px;
 margin: auto;
@@ -96,7 +110,13 @@ text-align: center;
 
 
 @media only screen and (max-width: 1050px) {
-
+  .container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 85%;
+  }
+  
+ 
 .tabela{
   max-width: 85%;
   margin: auto;
@@ -105,6 +125,7 @@ text-align: center;
   font-size: 1.2em;
 }
 
+ 
 
 
 .page-footer {
@@ -225,7 +246,7 @@ width: 95%;
 
 
 @media only screen and (max-width: 500px) {
-
+ 
 
   .tabela{ 
     width: 90%;
@@ -237,6 +258,8 @@ width: 95%;
     
    
   }
+
+    
   table{
       width: 95%;
       height: 400px;
