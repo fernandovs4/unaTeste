@@ -1,4 +1,21 @@
 
+th{
+    color: #01648B
+  }
+  td{
+    color: rgb(25, 27, 32);
+  }
+  
+  
+  
+  .tabela{
+    max-width: 950px;
+    margin: auto;
+    overflow-x: auto;
+    margin-top: 6em;
+    font-size: 1.2em;
+  }
+  
   .container{
     margin: auto;
         max-width: 800px;
