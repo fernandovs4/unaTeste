@@ -147,12 +147,7 @@ color: #01648B;
 }
 
 
-.conteudo_fundo{
-width: 90%;
-margin: auto;
-margin-top: 2em;
-margin-bottom: 2em;
-}
+
 
 p{
 font-size: 1.1em;
@@ -192,9 +187,10 @@ padding: 20px;
 
 .conteudo_contato{
 
-margin-left: 5%;
-margin-top: 2em;
-margin-bottom: 2em;
+  margin-left: 5%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  
 
 }
 
@@ -278,13 +274,7 @@ width: 95%;
       margin-bottom: 2px;
   }
 
-  .conteudo_fundo{
- 
-    min-width: 90%;
-    margin: auto;
-    margin-top: 2em;
-    margin-bottom: 2em;
-  }
+
 
 
 
@@ -371,13 +361,7 @@ table td{
     margin-bottom: 2px;
 }
 
-.conteudo_fundo{
- 
-  min-width: 90%;
-  margin: auto;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
+
 nav{
   background-color: #ffffff;
   box-shadow: 2px 2px 5px 0px rgba(245, 230, 230, 0.5);
@@ -477,12 +461,7 @@ h2{
 }
 
 
-.conteudo_fundo{
-width: 70%;
-margin: auto;
-margin-top: 2em;
-margin-bottom: 2em;
-}
+
 
 p{
 font-size: 1.1em;

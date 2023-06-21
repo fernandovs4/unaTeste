@@ -1,0 +1,19 @@
+.container{
+    max-width: 800px;
+    
+    margin: auto;
+}
+
+.conteudo_fundo{
+   
+    margin-top: 2em;
+    margin-bottom: 2em;
+    }
+
+.container{
+        max-width: 800px;
+        width: 85%;
+        text-align: justify;
+        
+        margin: auto;
+    }
