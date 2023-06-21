@@ -17,3 +17,53 @@
         
         margin: auto;
     }
+
+
+
+    h5.white-text.l20{
+        padding: 0;
+        margin: 0px;
+     
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+   
+    p{
+        
+       
+        text-align: justify;
+    }
+    h5 {
+        font-size: 0.6rem;
+        line-height: 120%;
+        margin: 0rem  5% 0.4em 5%;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        
+      
+      }
+    
+    .footer-copyright{
+        margin: 0%;
+        padding: 0;
+    }
+    .footer-copyright p{
+        margin: 0%;
+        padding: 0;
+    }
+    .footer-copyright .footer{
+       
+        margin: 10px 0;
+        font-size: smaller;
+    }
+    .footer  p{
+        margin: 0px;
+    }
+    .footer{
+        margin: 0%;
+    }
+    
+    .col.l24.s12.m12 {
+        padding: 0%;
+    
+    }
