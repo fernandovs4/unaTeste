@@ -26,3 +26,9 @@ h5 {
     line-height: 14px;
   
   }
+
+.container{
+    max-width: 800px;
+    min-width: 800px;
+    margin: auto;
+}
