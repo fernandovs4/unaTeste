@@ -1,13 +1,57 @@
+body{
+    font-family: 16px , Arial, Helvetica, sans-serif;
+}
 .conteudo_contato p{
     padding: 4px 0px;
     margin: 4px 0px;
+    font-family: Arial, Helvetica, sans-serif  ;
 }
 .container{
     max-width: 800px;
-    min-width: 800px;
+   
     margin: auto;
+    font-family: 16px ,Arial, Helvetica, sans-serif;
 }
 .conteudo_contato{
-    padding: 5px 0;
-    margin: 15px 0;
+    padding: 5px 5px;
+    margin: 15px 15px;
+  
 } 
+h5.white-text.l20{
+    padding: 0;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+p{
+    
+   
+    text-align: justify;
+}
+h5 {
+    font-size: 0.6rem;
+    line-height: 120%;
+    margin: 1rem  5% 0.4em 5%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  
+  }
+
+.footer-copyright{
+    margin: 0%;
+    padding: 0;
+}
+.footer-copyright p{
+    margin: 0%;
+    padding: 0;
+}
+.footer-copyright .footer{
+   
+    margin: 20px;
+    font-size: smaller;
+}
+.footer  p{
+    margin: 0px;
+}
