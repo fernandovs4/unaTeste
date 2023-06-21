@@ -2,3 +2,8 @@
     padding: 5px 0px;
     margin: 5px 0px;
 }
+.container{
+    max-width: 800px;
+    min-width: 800px;
+    margin: auto;
+}
