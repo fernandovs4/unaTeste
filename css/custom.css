@@ -8,10 +8,10 @@ body{
 }
 
 footer .white-text{
-  color: #8f8585;
+  color: #8f8585; 
 }
 
-h5 {
+/* h5 {
   font-size: 0.8rem;
   line-height: 120%;
   margin: 1rem  5% 0.4em 5%;
@@ -19,19 +19,21 @@ h5 {
   font-family: Arial, Helvetica, sans-serif;
   
 
-}
+} */
 
-@media only screen and (min-width: 993px) {
-  .container {
-    width: 80%;
-  }}
+
 
 @media only screen and (min-width: 993px) {
       #toast-container {
         top: 10%;
         right: 7%;
         max-width: 90%;
-      }
+      } 
+   
+      
+    
+      
+     
      
     }
 
@@ -62,13 +64,14 @@ h5 {
       margin: 0 0.2rem;
       text-align: justify;
       padding: 0;
+      font-size: smaller;
 
     }
-.footer{
+/* .footer{
   justify-content: space-around;
   text-align: justify;
-}
-
+} */
+/* 
 th{
   color: #01648B
 }
@@ -84,7 +87,9 @@ td{
   overflow-x: auto;
   margin-top: 6em;
   font-size: 1.2em;
-}
+} */
+
+
 
 
 .canva{
@@ -96,7 +101,8 @@ text-align: center;
 
 
 @media only screen and (max-width: 1050px) {
-
+/*  
+ 
 .tabela{
   max-width: 85%;
   margin: auto;
@@ -105,6 +111,7 @@ text-align: center;
   font-size: 1.2em;
 }
 
+  */
 
 
 .page-footer {
@@ -141,12 +148,7 @@ color: #01648B;
 }
 
 
-.conteudo_fundo{
-width: 90%;
-margin: auto;
-margin-top: 2em;
-margin-bottom: 2em;
-}
+
 
 p{
 font-size: 1.1em;
@@ -165,10 +167,7 @@ font-size: 0.5em;
 font-family: Arial, Helvetica, sans-serif
 
 }
-.conteudo_documento{
-margin-left:15% ;
 
-}
 .conteudo_contato{
 
 margin-left: 5%;
@@ -189,9 +188,10 @@ padding: 20px;
 
 .conteudo_contato{
 
-margin-left: 5%;
-margin-top: 2em;
-margin-bottom: 2em;
+  margin-left: 5%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  
 
 }
 
@@ -225,7 +225,7 @@ width: 95%;
 
 
 @media only screen and (max-width: 500px) {
-
+ 
 
   .tabela{ 
     width: 90%;
@@ -237,6 +237,8 @@ width: 95%;
     
    
   }
+
+    
   table{
       width: 95%;
       height: 400px;
@@ -273,13 +275,7 @@ width: 95%;
       margin-bottom: 2px;
   }
 
-  .conteudo_fundo{
- 
-    min-width: 90%;
-    margin: auto;
-    margin-top: 2em;
-    margin-bottom: 2em;
-  }
+
 
 
 
@@ -366,13 +362,7 @@ table td{
     margin-bottom: 2px;
 }
 
-.conteudo_fundo{
- 
-  min-width: 90%;
-  margin: auto;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
+
 nav{
   background-color: #ffffff;
   box-shadow: 2px 2px 5px 0px rgba(245, 230, 230, 0.5);
@@ -472,12 +462,7 @@ h2{
 }
 
 
-.conteudo_fundo{
-width: 70%;
-margin: auto;
-margin-top: 2em;
-margin-bottom: 2em;
-}
+
 
 p{
 font-size: 1.1em;
@@ -497,11 +482,7 @@ font-family: Arial, Helvetica, sans-serif
 
 }
 
-.conteudo_documento{
-margin-left: 5%;
-margin-top: 2em;
-margin-bottom: 2em;
-}
+
 .sidenav{
 background-color: #f7fbfd;
 }
@@ -513,8 +494,7 @@ font-weight: 400;
 .footer-copyright .footer {
 background-color: #01648bab;
 padding: 0%;
-margin-left: 5.3%;  
-margin-right: 5.3%;
+
 }
 
 #dataFinal, #dataInicial{
