@@ -16,6 +16,7 @@ th{
     overflow-x: auto;
     margin-top: 6em;
     font-size: 1.2em;
+    text-align: end;
     
   }
   
@@ -29,6 +30,7 @@ th{
   .tabela{
     width:800px;
     margin: 1auto;
+    text-align: end;
 }
 .row{
     padding: 0%;
@@ -93,6 +95,7 @@ h5 {
     .tabela{
         width:700px;
         margin: 2em auto;
+        text-align: end;
     }
   .container {
     margin: 0 auto;

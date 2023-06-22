@@ -610,7 +610,7 @@ text-align: left;
 .tabela1 > tbody > tr > td{
 padding: 0;
 margin: 0;
-text-align: center;
+text-align: end;
 width: 20px;
 
 }
