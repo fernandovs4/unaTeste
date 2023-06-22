@@ -17,7 +17,7 @@ fetch('https://earnest-torte-8a0636.netlify.app/cota.json').
         for(let i = 0; i < 7; i++){
             if (i > 0){
                 let div = document.getElementById(`${i + 1}`);
-                div.innerHTML = dados[0][i].replace(".",",");
+                div.innerHTML = dados[0][i].toString().replace(".",",");
                 let div2 = document.getElementById(`${i + 11}`);
                 div2.innerHTML = dados[1][i].replace(".",",");
                 let div3 = document.getElementById(`${i + 21}`);
