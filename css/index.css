@@ -12,10 +12,11 @@ th{
 }
   .tabela{
     max-width: 950px;
-    margin: auto;
+    margin: 2.2em auto;
     overflow-x: auto;
     margin-top: 6em;
     font-size: 1.2em;
+    
   }
   
   .container{
@@ -25,7 +26,7 @@ th{
   }
   .tabela{
     width:800px;
-    margin: auto;
+    margin: 1auto;
 }
 .row{
     padding: 0%;
@@ -89,7 +90,7 @@ h5 {
   @media only screen and (max-width: 933px) {
     .tabela{
         width:700px;
-        margin: auto;
+        margin: 2em auto;
     }
   .container {
     margin: 0 auto;
