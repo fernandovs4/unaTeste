@@ -1,16 +1,16 @@
 body{
-    font-family: 16px , Arial, Helvetica, sans-serif;
+    font-family: 16px , Verdana, Tahoma, sans-serif;
 }
 .conteudo_contato p{
     padding: 4px 0px;
     margin: 4px 0px;
-    font-family: Arial, Helvetica, sans-serif  ;
+    font-family: Verdana, Tahoma, sans-serif  ;
 }
 .container{
     max-width: 800px;
    
     margin: auto;
-    font-family: 16px ,Arial, Helvetica, sans-serif;
+    font-family: 16px ,Verdana, Tahoma, sans-serif;
 }
 .conteudo_contato{
     
@@ -28,7 +28,7 @@ h5.white-text.l20{
     padding: 0;
     margin: 0px;
  
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 .page-footer.darken-4 {
@@ -45,7 +45,7 @@ h5 {
     line-height: 120%;
     margin: 0rem  5% 0.4em 5%;
     text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     
   
   }
