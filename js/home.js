@@ -5,10 +5,12 @@ fetch('https://earnest-torte-8a0636.netlify.app/cota.json').
     resposta = resposta['dados'];
     let dados = []
     for(let i = 0; i < resposta['Mes'].length; i++){
+        resposta.map(x => x.replace(".", ","))
+        console.log(resposta)
         if (i == 0){
             dados.push([resposta['Cota'][i], resposta['Mes'][i], resposta['Ano'][i], resposta['12 Meses'][i], resposta['24 Meses'][i], resposta['36 Meses'][i], resposta['60 Meses'][i]])
         }else{
-            dados.push(["-", resposta['Mes'][i], resposta['Ano'][i], resposta['12 Meses'][i], resposta['24 Meses'][i], resposta['36 Meses'][i], resposta['60 Meses'][i]])
+            dados.push([ resposta['Mes'][i], resposta['Ano'][i], resposta['12 Meses'][i], resposta['24 Meses'][i], resposta['36 Meses'][i], resposta['60 Meses'][i]])
         }
     }
     console.log(dados)
