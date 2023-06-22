@@ -19,12 +19,11 @@ fetch('https://earnest-torte-8a0636.netlify.app/cota.json').
                 let div = document.getElementById(`${i + 1}`);
                 div.innerHTML = dados[0][i].toString().replace(".",",");
                 let div2 = document.getElementById(`${i + 11}`);
-                div2.innerHTML = dados[1][i].toString().replace(".",",");
+                div2.innerHTML = dados[1][i - 1].toString().replace(".",",");
                 let div3 = document.getElementById(`${i + 21}`);
-                div3.innerHTML = dados[2][i].toString().replace(".",",");
+                div3.innerHTML = dados[2][i - 1].toString().replace(".",",");
                 let div4 = document.getElementById(`${i + 31}`);
-                div4.innerHTML = dados[3][i].toString().replace(".",",");
-
+                div4.innerHTML = dados[3][i - 1].toString().replace(".",",");
             }else{
                 let div = document.getElementById(`${i + 1}`);
                 div.innerHTML = dados[0][i].toString().replace(".",",");
