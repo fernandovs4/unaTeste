@@ -5,7 +5,7 @@ fetch('https://earnest-torte-8a0636.netlify.app/cota.json').
     resposta = resposta['dados'];
     let dados = []
     for(let i = 0; i < resposta['Mes'].length; i++){
-        resposta.map(x => x.replace(".", ","))
+       
         console.log(resposta)
         if (i == 0){
             dados.push([resposta['Cota'][i], resposta['Mes'][i], resposta['Ano'][i], resposta['12 Meses'][i], resposta['24 Meses'][i], resposta['36 Meses'][i], resposta['60 Meses'][i]])
@@ -17,17 +17,17 @@ fetch('https://earnest-torte-8a0636.netlify.app/cota.json').
         for(let i = 0; i < 7; i++){
             if (i > 0){
                 let div = document.getElementById(`${i + 1}`);
-                div.innerHTML = dados[0][i];
+                div.innerHTML = dados[0][i].replace(".",",");
                 let div2 = document.getElementById(`${i + 11}`);
-                div2.innerHTML = dados[1][i];
+                div2.innerHTML = dados[1][i].replace(".",",");
                 let div3 = document.getElementById(`${i + 21}`);
-                div3.innerHTML = dados[2][i];
+                div3.innerHTML = dados[2][i].replace(".",",");
                 let div4 = document.getElementById(`${i + 31}`);
-                div4.innerHTML = dados[3][i];
+                div4.innerHTML = dados[3][i].replace(".",",");
 
             }else{
                 let div = document.getElementById(`${i + 1}`);
-                div.innerHTML = dados[0][i];  
+                div.innerHTML = dados[0][i].replace(".",",");
             }
            
         }
